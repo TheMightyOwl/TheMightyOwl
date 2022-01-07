@@ -1,8 +1,7 @@
 import pygame as pg
-import sys, random, math
+import random, math
 
 
-EPSILON = sys.float_info.epsilon
 SCREENRECT = pg.Rect(0, 0, 640, 360)
 
 
