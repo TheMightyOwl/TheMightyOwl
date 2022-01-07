@@ -75,7 +75,6 @@ def segmentCollision(pos, delta, rectangle, paddingX=0, paddingY=0):
 
 
 def sweepCollision(rect1, rect2, delta):
-
     sweep = Sweep()
 
     r1Position = pg.math.Vector2(rect1.center)
@@ -125,7 +124,6 @@ def sweepGroup(rect1, delta, rectGroup):
 
 
 def main():
-
     # Initialise PyGame, display and clock. Set initial value for DeltaTime
     pg.init()
     screen = pg.display.set_mode(SCREENRECT.size)
